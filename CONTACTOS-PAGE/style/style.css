@@ -6,7 +6,7 @@
 
 body{
     overflow-y: hidden;
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
     background-position: center;
     background-size: 1480px;
     background-position-y: 0px;
@@ -17,6 +17,8 @@ body{
 #content{
     padding: 45px;
     padding-top: 0px;
+    padding-left: 18%;
+    padding-right: 18%;
     background-color: #26262682;
     display: flex;
     align-items: center;
@@ -32,10 +34,14 @@ body{
     margin-bottom: 20px;
     font-weight: bold;
     font-family: monospace;
+    color: white;
 }
 
 /* BLOCK */
 .block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
     border: 4px solid #e97f0099;
     width: 75%;
